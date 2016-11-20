@@ -1,0 +1,17 @@
+{
+  "name": "MovieDatabase",
+  "version": "1.0.0",
+  "description": "Search for movies.",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "build": "webpack"
+  },
+  "author": "l-emi",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  }
+}

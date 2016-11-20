@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+/* line 7, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+html, body {
+  background: #221241;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #221241 0%, #44003c 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #221241 0%, #44003c 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #221241 0%, #44003c 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#221241', endColorstr='#44003c',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  overflow-x: hidden; }
+
+/* line 24, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+#input-text {
+  height: 50px;
+  width: 98%;
+  background-color: rgba(76, 61, 108, 0.5);
+  color: rgba(250, 251, 251, 0.6);
+  padding: 0px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  border: none;
+  padding-left: 2%;
+  margin-bottom: 20px; }
+
+/* line 38, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+#mainbox {
+  position: fixed;
+  height: 70vh;
+  width: 90vw;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+/* line 47, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+#results {
+  background-color: rgba(76, 61, 108, 0.3);
+  width: 100%;
+  height: 100%;
+  border: none;
+  position: relative;
+  padding: 0px 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 2px; }
+
+/* line 59, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+ul {
+  width: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+/* line 65, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+li {
+  list-style: none;
+  width: 100%;
+  height: auto;
+  display: table; }
+  /* line 70, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+  li:hover {
+    background-color: rgba(76, 61, 108, 0.35); }
+
+/* line 75, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+.title {
+  width: 80%;
+  float: left;
+  display: table-cell; }
+
+/* line 81, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+.year {
+  width: 20%;
+  float: right;
+  display: table-cell; }
+
+/* line 87, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+p {
+  margin: 15px 0px;
+  padding-left: 2%;
+  color: rgba(250, 251, 251, 0.6);
+  font-weight: 300; }
+
+/* line 94, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+::-webkit-input-placeholder {
+  color: rgba(250, 251, 251, 0.3); }
+
+/* line 97, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+:-moz-placeholder {
+  color: rgba(250, 251, 251, 0.3);
+  opacity: 1; }
+
+/* line 101, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+::-moz-placeholder {
+  color: rgba(250, 251, 251, 0.3);
+  opacity: 1; }
+
+/* line 105, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+:-ms-input-placeholder {
+  color: rgba(250, 251, 251, 0.3); }
+
+/* line 109, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+::-webkit-scrollbar {
+  width: 15px; }
+
+/* line 112, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+::-webkit-scrollbar-track {
+  background-color: transparent; }
+
+/* line 115, C:/Users/Lidiya/Desktop/comp/React/lang/css/main.scss */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(76, 61, 108, 0.35); }
+
+/*# sourceMappingURL=main.css.map */
