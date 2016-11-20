@@ -17,7 +17,7 @@ class MainBox extends React.Component {
     }
     
     search(query = "indiana jones") {
-        var url = "http://www.omdbapi.com?s=" + query + "&y=&i=&r=json";
+        var url = "//www.omdbapi.com?s=" + query + "&y=&i=&r=json";
         Request.get(url).then((data) => {
             this.setState({
                 movies: data.body.Search

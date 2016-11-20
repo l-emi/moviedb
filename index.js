@@ -21567,7 +21567,7 @@
 
 	            var query = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "indiana jones";
 
-	            var url = "http://www.omdbapi.com?s=" + query + "&y=&i=&r=json";
+	            var url = "//www.omdbapi.com?s=" + query + "&y=&i=&r=json";
 	            _superagent2.default.get(url).then(function (data) {
 	                _this2.setState({
 	                    movies: data.body.Search
